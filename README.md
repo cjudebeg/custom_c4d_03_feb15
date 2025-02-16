@@ -40,6 +40,7 @@ CustomUser is enabled but nothing from the AbstractUser is implemented.
 To configure email and password only for sign-in, allauth installed with these constants in settings.py 
 
 ACCOUNT_LOGIN_METHODS = {"email"}
+
 ACCOUNT_EMAIL_REQUIRED = True
 
 
